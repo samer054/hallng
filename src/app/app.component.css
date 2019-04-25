@@ -1,0 +1,74 @@
+.container-fluid{
+
+  display: flex;
+  height:100vh;
+  padding:0px;
+
+}
+.left{
+  width:80vw;
+  background:#f1d1b5;
+}
+.right{
+  width:20vw;
+  background:#305f72;
+  display: flex;
+  height:100%;
+  flex-direction: column;
+  justify-content: space-between;
+  direction: rtl;
+  text-align: right;
+  min-width: 260px;
+  color:#F1D1B5;
+}
+.logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  width: 12vw;
+  height: 10vh;
+}
+.menuItems{
+  height:50%;
+  margin-top:58px;
+  min-width: 200px;
+}
+.menuItems ul li{
+  list-style-type: none;
+  margin:10px;
+  color:#F1D1B5;
+}
+.menuItems ul > li > i{
+
+margin-left:20px;
+
+}
+.menuItems ul{
+
+}
+.fas{
+  font-size: 1rem;
+
+}
+.line{
+  border: 2px solid;
+  margin: 20px;
+  width: 100px;
+  height: 0px;
+}
+.BottomNav{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+}
+.mainbutton{
+  text-align: center;
+  margin-top: 49px;
+}
+.NavItems{
+  flex-basis: 60%;
+}
